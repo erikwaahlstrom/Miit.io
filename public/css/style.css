@@ -1,0 +1,659 @@
+html,
+body {
+	background-color: #FCFCFC;
+	font-family: 'Comfortaa', cursive;
+	margin:0;
+	padding:0;
+	height:100%;
+	color: #34495E;
+	letter-spacing: 2px;
+}
+
+
+
+.container{
+	width: 70%;
+}
+
+.form-control {
+	margin-bottom: 20px;
+}
+
+.nav {
+	padding-top: 5px;
+	font-weight: 300;
+}
+
+.navbar-header {
+	margin-top: 5px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-inverse .navbar-nav li a{
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	color: #F77474;
+}
+
+#navbar {
+	width: 100%;
+	height: 60px;
+	border: none;
+	background-image: url('../img/header-background.png');
+	background-size: cover;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+}
+
+
+/*header*/
+.logo {
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.logoicon {
+	width: 30px;
+	float: left;
+	margin-top: -5px;
+	margin-right: 10px;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+
+}
+#content {
+	margin-top: 100px;
+	padding-bottom:100px; /* Height of the footer element */
+}
+#footer {
+	width:100%;
+	height:auto;
+	position:absolute;
+	bottom:10px;
+	left: auto;
+	right: auto;
+	text-align: center;
+}
+
+#footer ul {
+	width: 150px;
+	list-style: none;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+
+}
+
+#footer ul li{
+	float: left;
+	margin-right: 20px;
+
+}
+
+#footer ul li a{
+	color: #BEBEBE;
+
+}
+
+#footer ul li a:hover{
+	color: #F77474;
+	text-decoration: none;
+}
+
+
+
+.datetimepicker{
+	width: 100%;
+	height: auto;
+	border: 1px solid #BBB;
+	border-right: 1;
+	padding: 5px;
+
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	/*outline: none;*/
+}
+
+#newmeetingform{
+	position: relative;
+	left: 50%;
+	margin-left: -160px;
+	width: 320px;
+}
+
+#newmeeting{
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+/*New meeting booking form*/
+#Meetingform{
+	position: relative;
+	left: 33%;
+	width: 300px;
+}
+
+#newmeeting{
+	margin: 0px auto 40px auto;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+}
+
+/*dashboard user*/
+.usericon{
+	position: relative;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: -100px;
+	color: #34495e;
+	opacity: 0.6;
+	margin-top: -30px;
+}
+
+#dashboard{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+	color: #34495e;
+	margin-left: 9px;
+}
+
+#dashboardform{
+	position: relative;
+	left: 50%;
+	margin-left: -160px;
+	width: 330px;
+}
+
+
+.edit-name{
+	width: 20px;
+	height: 20px;
+	color: #34495e;
+	opacity: 0.4;
+	position: relative;
+	right: 10%;
+	top: 25px;
+}
+
+#description{
+	margin: auto auto 30px auto;
+}
+
+#emailinvite{
+	margin-top: 10px;
+}
+
+#add{
+	margin: auto auto 30px auto;
+	position: relative;
+	right: 5%;
+	text-decoration: none;
+	color: #34495e;
+	padding: 30 0 30 0;
+}
+
+#add:hover{
+	color: #F77474;
+	text-decoration: none;
+
+}
+
+#adddates{
+	width: 20px;
+	height: 20px;
+	opacity: 0.4;
+	position: relative;
+	right: 5%;
+}
+
+.remove{
+	text-decoration: none;
+	color: #34495e;
+}
+
+.remove:hover{
+	color: #F77474;
+	text-decoration: none;
+
+}
+
+/*dashboard meetings*/
+#dashboard-meetings{
+	margin: 80px auto 40px auto;
+	font-size: 40px;
+	text-align: center;
+	color: #34495e;
+}
+
+.hr{
+	width: 500px;
+	margin-top: -20px;
+}
+
+.meetingstable{
+	text-align: center;
+
+}
+
+#meeting1{
+	margin: 0px auto 40px auto;
+	text-align: center;
+	color: #34495e;
+}
+
+#meeting2{
+	margin: 30px auto 40px auto;
+	text-align: center;
+	color: #34495e;
+}
+
+#meeting3{
+	margin: 30px auto 40px auto;
+	text-align: center;
+	color: #34495e;
+}
+
+.numb1{
+	opacity: 0.4;
+	margin-left: 210px;
+	margin-top: -120px;
+	width: 27px;
+	height: 27px;
+}
+
+.mrgreen{
+	float: right;
+	margin-right: 210px;
+	margin-top: -60px;
+	width: 27px;
+	height: 27px;
+}
+
+#meet2{
+	text-align: center;
+	margin-top: -60px;
+	color: #34495e;
+}
+
+/*meeting page*/
+
+.content {
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+
+.meetinginfo {
+	width: 100%;
+	/*background-color: gray;*/
+}
+
+.questionlink {
+	display: block;
+	text-decoration: none;
+	width: 40px;
+	margin: 0 auto;
+}
+
+.questionlink:hover {
+	text-decoration: none;
+}
+
+
+
+
+.info {
+	text-align: center;
+}
+
+.info h2 {
+	font-weight: 300;
+}
+
+.info h5 {
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.datetime {
+	width: 400px;
+	height: 400px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 10px;
+	text-align: center;
+	border: 2px solid #F2F2F2;
+}
+
+.caltop {
+	width: 100%;
+	height: 60px;
+	background-color: #F87575;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-bottom: 90px;
+}
+
+.datetime .caltop p {
+	font-size: 25px;
+	color: #ffffff;
+	padding-top: 12px;
+	font-weight: 300;
+}
+
+.datetime .time {
+	font-size: 40px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.btns {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.btn-danger {
+	border-radius: 100px;
+	background-color: #F87575;
+	border: none;
+	width: 197px;
+	height: 40px;
+	background-image: none;
+}
+
+.btn-danger:hover {
+	background-color: #F26363;
+}
+
+.btn-success {
+	border-radius: 100px;
+	background-color: #74F7A8;
+	border: none;
+	width: 197px;
+	height: 40px;
+	background-image: none;
+}
+
+.btn-success:hover {
+	background-color: #60E593;
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	border: 1px solid #BAC1C8;
+	color: #BAC1C8;
+	text-align: center;
+	padding-top: 8px;
+	padding-left: 1px;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+.moredates {
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+	/*background-color: gray;*/
+}
+
+.moredates .available {
+	margin-bottom: 40px;
+}
+
+.moredate {
+	width: 120px;
+	height: 120px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	float: left;
+	margin-right: 65px;
+	border: 2px solid #F2F2F2;
+}
+
+.moredate .caltop {
+	height: 20px;
+	margin-bottom: 15px;
+}
+
+.moredate .time {
+	font-size: 20px;
+	padding-bottom: 0;
+}
+
+.moredate .caltop p {
+	color: #ffffff;
+	padding-top: 1px;
+}
+
+
+/* questions info*/
+
+.infonumbers {
+	width: 30px;
+	height: 30px;
+	float: right;
+	font-size: 12px;
+	margin-right: 200px;
+	margin-top: 100px;
+}
+
+#overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	background:rgba(255,255,255,0.6);
+	z-index:5;
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+
+/*Startsidan egen css*/
+
+#startpagenavbar {
+	width: 100%;
+	height: 500px;
+	border: none;
+	background-image: url('../img/startpagebg.png');
+	background-size: cover;
+}
+
+
+#startpageheaderinfo {
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 80px;
+	font-weight: 300;
+	font-size: 35px;
+}
+
+#startpagebtns {
+	margin-top: 60px;
+}
+
+.registerbtn {
+	background-color: #34495E;
+}
+
+.registerbtn:hover {
+	background-color: #233F5B;
+}
+
+.startpagequestionlink {
+	display: block;
+	text-decoration: none;
+	width: 40px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+
+.startpagequestionlink:hover {
+	text-decoration: none;
+}
+
+.learnmore {
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+.howitworks {
+	text-align: center;
+}
+
+.howitworks h3 {
+	margin-bottom: 30px;
+}
+
+.content p {
+	font-size: 12px;
+}
+
+#howitworksicons {
+	width: 100%;
+	height: 310px;
+	/*background-color: gray;*/
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#circleswrap {
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+
+.howitworkscircle {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #EBEBEB;
+	border-radius: 100px;
+	/*float: left;*/
+	/*margin-right: 69px;*/
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.lastcircle {
+	margin-right: 0;
+}
+
+.howitworkstext {
+	width: 33.3%;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: left;
+}
+
+#responsivescreens {
+	width: 60%;
+	height: 350px;
+	margin: 0 auto;
+	/*background-color: gray;*/
+	margin-top: 50px;
+	background-image: url('../img/device.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.circle1 {
+	background-image: url('../img/1.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.circle2 {
+	background-image: url('../img/2.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.circle3 {
+	background-image: url('../img/3.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*Startsidan egen css slut*/
+
+
+/*Auth pages*/
+
+.authform {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.loginbtn {
+	margin-top: 20px;
+}
+
+
+/*Auth pages end*/
+
+
+.alert-success{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.statusimg{
+	width:24px;
+}
+
+
+/*Success page*/
+
+#success {
+	text-align: center;
+}
+
+#success h1 {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.glyphicon-ok {
+	color: #74F7A8;
+	margin-right: 20px;
+}
+
